@@ -1,0 +1,256 @@
+/*-------CSS for Comet site --------*/
+
+body {  
+	color: black;
+	background-color: #5F81C1;   
+	padding: 0;
+	line-height: 125%;    
+	width: 970px;
+	margin: 0 auto;  
+}
+
+/*----- Header ----------*/
+Header {
+	background-image: -o-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	background-image: -moz-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	background-image: -webkit-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	background-image: -ms-linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+	background-image: linear-gradient(bottom, #5F82C1 20%, #5F82C1 48%, #7E7E7E 83%);
+}
+	
+header li, footer li {
+   list-style: none; 
+}
+
+header nav {
+	float: right;
+	width: 500px;
+}
+
+header li {
+	float: right; 
+	width: 140px; 
+}
+
+Header a:link {
+	text-decoration: none;
+	height: 35px; 
+	line-height: 35px;
+	text-align: center;
+	color: white; 
+	background-color: #5F81C1; 
+	display: block; 
+	outline: none;
+	
+} 
+
+Header a:visited {
+	color: purple; 
+}
+
+Header a:hover {
+	color: #0E2755; 
+}
+
+Header a:active {
+	color: #C5A931; 
+}
+
+/*-----------header end-----------*/
+
+li {
+	list-style: circle;
+}
+
+
+a:link	{
+	color: #0E2755;
+	text-decoration: none; 
+}
+
+a:visited	{
+	color: purple; 
+}
+
+a:hover	{
+	color: white;
+}
+
+a:active	{
+	color: #C5A931;
+}
+
+p { 
+	margin: 0 15px;
+	color: white;
+	width: 200px;
+	line-height: 125%; 
+	font-size: x-large;
+	float: left;
+	
+}
+
+h1 {
+	margin: 0;
+	text-indent: -990000px;
+}
+
+h2, h3 {  
+	color: white;
+	text-shadow: 2px 2px 2px #7992C1; 
+	font-size: xx-large; 
+	margin: 50px 0 20px;
+	clear: left; 	
+}
+
+/*--------main pic start  ------*/
+
+#mainpic {
+	padding: 0;
+	float: left;
+	margin: 0 0 30px 0;
+}
+
+
+/*--------main pic end ------*/
+
+
+/*-------gallery here--------*/
+
+dl {
+	list-style-type: none; 
+	width: 940px; 
+	margin: 11px;
+	overflow: hidden; 
+}
+
+dl li {
+	float: left; 
+	Margin: 5px;	
+	}
+
+.gallery {
+	border: 1px solid white;
+	display: block;
+	width: 300px; 
+	height: 195px;
+	outline: 0;   
+}
+
+dl {
+	list-style: none; 
+	background-color: rgba(126, 126, 126, .5);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+/*-------gallery end--------*/
+
+#halleydetail p {
+	color: #5F81C1;
+	font-size: small; 
+	padding: 20px;
+	margin-bottom: 15px; 
+	width: 900px; 
+	-moz-column-count: 3;
+	-moz-column-gap: 10px; 
+	-o-column-count: 3;
+	-o-column-gap: 10px; 
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px; 
+	column-count: 3;
+	column-gap: 10px;
+	background-image: url(../images/stars_1.jpg);
+	background-color: #5F81C1;
+	border-radius: 5px;
+}
+
+div {
+	
+}
+
+
+#maincontent p {
+
+	color: white;
+	padding: 5px 15px;
+	margin: 0 5px 20px 5px;
+	font-size: medium;
+	width: 540px;
+	float: left;
+}
+
+/*-------fun facts-------*/
+
+aside {
+	color: white;
+	width: 330px;
+	padding: 0 20px 5px 20px;
+	Float: left;
+	margin: -115px 0 0 0;
+}
+
+#funfacts {
+	list-style: circle;
+		
+}
+
+/*-------fun facts end-------*/
+
+
+article {
+	color: #C5A931; 
+	font-size: large; 
+	margin: 35px 0 10px 0;
+	clear: both;
+	padding-left: 0;
+}
+
+/*------- footer start-------*/
+
+
+footer {
+	color: white; 
+	padding-top: 50px; 
+	background-color: rgba(126, 126, 126, .5);
+	font-size: x-small; 
+	margin: 30px 0 0 0;
+	padding: 10px;
+}
+
+
+footer nav {
+	float: right;
+	width: 400px;
+}
+
+footer li {
+	float: right; 
+	width: 100px; 
+}
+
+footer a:link {
+	text-decoration: none;
+	font-size: small;
+	height: 25px; 
+	line-height: 25px;
+	text-align: center;
+	color: white; 
+	display: block; 
+	outline: none;	
+} 
+
+footer a:visited {
+	color: purple; 
+}
+
+
+footer a:hover {
+	color: #0E2755; 
+}
+
+footer a:active {
+	color: #C5A931; 
+}
+
+/*------- footer end-------*/
